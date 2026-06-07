@@ -1,0 +1,24 @@
+{
+  "name": "Sila Tech API",
+  "description": "Official REST API for Sila Tech - AI, Tools & More",
+  "repository": "https://github.com/Sila-Md/silatech-api",
+  "logo": "https://silatech.site/logo.png",
+  "keywords": ["node", "express", "api", "ai"],
+  "env": {
+    "NODE_ENV": {
+      "description": "Environment mode",
+      "value": "production"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
